@@ -33,10 +33,12 @@ main{
 
 /* navtop */
 .navtop{
-    height:90%;
+    height:calc(100vh - 150px);
     width:100%;
     background-color: blueviolet;
     color:lightgray;
+    overflow-y: auto;
+
 }
 
 .navtop .logo{
@@ -85,7 +87,7 @@ main{
 
 /* navdown */
 .navdown{
-    height:10%;
+    height:70px;
     width:100%;
     background-color: chocolate;
 }
