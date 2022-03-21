@@ -242,11 +242,44 @@ main{
     color:white;
     font-size: .8em;
     padding: 10px 20px 10px 20px;
+    transition: 1s;
+}
 
+.upgrade-btn a:hover{
+    padding: 15px 25px 15px 25px;
+}
 
+.menu-song{
+    width:100%;
+    background-color: tomato;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d1d1d;
+}
+
+.menu-song ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.menu-song li{
+    padding:10px;
+}
+
+.menu-song li a{
+    text-decoration: none;
+    font-size: .9em;
+    color:gray;
 
 }
 
+.menu-song li a:hover{
+    color:white;
+}
 
 /* FOOTER */
 
