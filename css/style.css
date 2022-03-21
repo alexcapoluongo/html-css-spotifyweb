@@ -21,28 +21,34 @@ main{
 .nav{
     width:300px;
     height:100%;
-    background-color: blue;
+    background-color: black;
     display: inline-block;
     float:left;
+}
+
+.nav a:hover{
+    color:white;
 }
 
 /* navtop */
 .navtop{
     height:calc(100vh - 150px);
     width:100%;
-    background-color: blueviolet;
+    background-color: black;
     color:lightgray;
     overflow-y: auto;
 }
 
-.navtop-content{
-    padding-left:10px;
+.navtop a{
+    margin-left:10px;
 }
+
 
 .navtop .logo{
     width:50%;
     padding-bottom:20px;
     padding-top:5px;
+    padding-left: 10px;
 }
 
 .navtop ul{
@@ -51,6 +57,10 @@ main{
 
 .navtop li{
     padding-bottom:10px;
+}
+
+.navbar li:first-child{
+    border-left:2px solid limegreen;
 }
 
 .navtop li a{
@@ -74,8 +84,12 @@ main{
     margin-bottom:20px;
 }
 
+.navbar:first-child{
+    border-left:1px solid lime;
+}
 .navtop h3{
     font-size: 1em;
+    padding-left: 10px;
 }
 
 .logo-create-navbar{
@@ -92,12 +106,13 @@ main{
 .navdown{
     height:70px;
     width:100%;
-    background-color: chocolate;
+    background-color: black;
 }
 
 .installa-app-box{
     border-bottom:1px solid gray;
     padding-bottom:10px;
+    padding-left:10px
 }
 
 .installa-app-box a{
@@ -112,7 +127,9 @@ main{
 
 .utente-bar{
     padding-top:10px;
+    padding-left:10px;
 }
+
 .username{
     color:white;
     font-weight: bold;
@@ -132,7 +149,6 @@ main{
     .nav{
         width:50px;
         height:calc(100vh - 80px);
-        background-color: aqua;
     }
 
     .logo img{
@@ -142,6 +158,11 @@ main{
     .logo{
         content:url(../img/logo-small.svg);
         margin:0 auto;
+    }
+
+    .navtop .logo{
+        padding-left: 0px;
+        width:80%;
     }
 
     .navtop-content{
@@ -191,6 +212,7 @@ main{
         text-align: center;
     }
 }
+
 /* content */
 .content{
     width:calc(100vw - 300px);
