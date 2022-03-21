@@ -24,11 +24,6 @@ main{
     background-color: blue;
     display: inline-block;
     float:left;
-    padding-left:10px;
-}
-
-.nav li{
-    padding-top:10px;
 }
 
 /* navtop */
@@ -38,16 +33,24 @@ main{
     background-color: blueviolet;
     color:lightgray;
     overflow-y: auto;
+}
 
+.navtop-content{
+    padding-left:10px;
 }
 
 .navtop .logo{
-    width:60%;
+    width:50%;
     padding-bottom:20px;
+    padding-top:5px;
 }
 
 .navtop ul{
     list-style:none;
+}
+
+.navtop li{
+    padding-bottom:10px;
 }
 
 .navtop li a{
@@ -121,6 +124,73 @@ main{
     color:gray;
     vertical-align: middle;
 }
+
+/* mediaquery navbar */
+
+@media screen and (max-width:600px){
+
+    .nav{
+        width:50px;
+        height:calc(100vh - 80px);
+        background-color: aqua;
+    }
+
+    .logo img{
+        display: none;
+    }
+
+    .logo{
+        content:url(../img/logo-small.svg);
+        margin:0 auto;
+    }
+
+    .navtop-content{
+        padding-left: 0px;
+    }
+    .nav .playlistbar li{
+        display:none;
+    }
+
+    .navtop h3{
+        display:none;
+    }
+
+    .navbar-text{
+        display: none;
+    }
+
+    .navtop i{
+        display:block;
+        text-align: center;
+    }
+
+    .username{
+        display:none;
+    }
+
+    .installa-app-box{
+        text-align: center;
+    }
+
+    .installa-app-text{
+        display:none;
+    }
+
+    .installa-app-box a{
+        color: white;
+    }
+
+    .installa-app-box i{
+        padding-right:0px;
+    }
+
+    .installa-app-box{
+        border:none;
+    }
+    .utente-bar{
+        text-align: center;
+    }
+}
 /* content */
 .content{
     width:calc(100vw - 300px);
@@ -129,6 +199,9 @@ main{
     float:left;
     display: inline-block;
 }
+
+
+
 
 /* FOOTER */
 
