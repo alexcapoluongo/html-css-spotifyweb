@@ -5,8 +5,19 @@
     box-sizing: border-box;
 }
 
+/* COMMON  */
+
 html{
     font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #1d1d1d;
+}
+
+.container{
+    width:95%;
+    margin: 0 auto;
 }
 
 /* MAIN */
@@ -224,8 +235,9 @@ main{
 
 .effettua-upgrade{
     height:60px;
-    width:100%;
+    width:calc(100% - 300px);
     background-color: rgba(0, 0, 0, .5);
+    position: fixed;
 }
 
 .upgrade-btn{
@@ -250,8 +262,8 @@ main{
 }
 
 .menu-song{
+    margin-top: 60px;
     width:100%;
-    background-color: tomato;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -292,6 +304,41 @@ main{
 .menu-song li a:hover{
     color:white;
 }
+
+.recently-played{
+    width:100%;
+    margin-top:40px;
+}
+
+.recently-played h2{
+    color:white;
+    padding-bottom:20px;
+}
+
+.album{
+    height:30vh;
+    width:100%;
+    background-color: brown;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.album-item{
+    border:1px solid black;
+    width:160px;
+}
+
+.album-photo{
+    height:70%;
+    border:3px solid blue;
+}
+.album-name{
+    height:30%;
+    border:2px solid red;
+}
+
+
 
 /* FOOTER */
 
