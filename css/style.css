@@ -333,10 +333,29 @@ main{
     height:70%;
     border:3px solid blue;
 }
+
+.album-photo img{
+    width:100%;
+    height:100%;
+}
+
 .album-name{
     height:30%;
     border:2px solid red;
+    text-align: center;
 }
+
+.album-label{
+    font-size: 1em;
+    font-weight: bold;
+    color:white;
+}
+
+.album-artist{
+    font-size: .8em;
+    color:gray
+}
+
 
 
 
