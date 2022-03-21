@@ -1,3 +1,36 @@
-body{
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* MAIN */
+
+main{
+    height:calc(100vh - 80px);
+    background-color: violet;
+}
+
+.nav{
+    width:20%;
+    height:100%;
+    background-color: blue;
+    display: inline-block;
+}
+
+.content{
+    width:80%;
+    height:100%;
+    background-color: aquamarine;
+    float:right;
+    display: inline-block;
+}
+
+/* FOOTER */
+
+footer{
+    height:80px;
     background-color: yellow;
+
 }
