@@ -222,7 +222,30 @@ main{
     display: inline-block;
 }
 
+.effettua-upgrade{
+    height:60px;
+    width:100%;
+    background-color: rgba(0, 0, 0, .5);
+}
 
+.upgrade-btn{
+    display:inline-block;
+    float:right;
+    line-height: 60px;
+    margin-right:20px;    
+}
+
+.upgrade-btn a{
+    border:2px white solid;
+    border-radius:40px;
+    text-decoration: none;
+    color:white;
+    font-size: .8em;
+    padding: 10px 20px 10px 20px;
+
+
+
+}
 
 
 /* FOOTER */
