@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
 
-    <!-- style -->
-    <link rel="stylesheet" href="css/style.css">
+
 
     <!-- fonts -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -16,52 +15,62 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
+    <!-- style -->
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
 
 
     <!-- main -->
-
+    <div class="container-1">
     <main>
         <div class="nav">
             
                 <div class="navtop">
-                    <div class="navtop-content">
+                    
                         <div class="logo">
                             <img src="img/logo.svg" alt="logo spotify">
                         </div>
 
                         <ul class="navbar">
-                            <li><a href=""><i class="fas fa-home"></i><span class="navbar-text"> Home</span></a></li>
-                            <li><a href=""><i class="fas fa-search"></i><span class="navbar-text"> Cerca</span></a></li>
-                            <li><a href=""><i class="fas fa-book-open"></i><span class="navbar-text"> La tua libreria</span></a></li>
-                        </ul>
-
-                        <h3>PLAYLIST</h3>
-
-                        <ul class="playlistbar">
+                            <li><a href=""> <img src="img/home.svg" alt="">
+                                <span class="navbar-text"> Home</span>
+                            </a></li>
+                            <li><a href=""><img src="img/search.svg" alt="">
+                                <span class="navbar-text"> Cerca</span>
+                            </a></li>
                             <li>
-                                <a href="">
-                                    <span class="logo-create-navbar">
-                                        <i class="fas fa-plus-square"></i>  
-                                    </span>
-                                    <span class="navbar-text-playlist">Crea Playlist</span></a>
-                            </li>
-                            <div class="nomeplaylist">
-                                <li><a href="">Nome Playlist</a></li>
-                                <li><a href="">Nome Playlist</a></li>
-                                <li><a href="">Nome Playlist</a></li>
-                                <li><a href="">Nome Playlist</a></li>
-                                <li><a href="">Nome Playlist</a></li>
-                                <li><a href="">Nome Playlist</a></li>
-                                <li><a href="">Nome Playlist</a></li>
-                            </div>
+                                <a href=""><img src="img/libreria.svg" alt="">
+                                <span class="navbar-text"> La tua libreria</span>
+                            </a></li>
                         </ul>
-                    </div>
+
+                        <div class="playlistbar-title">
+                            <h3>PLAYLIST</h3>
+
+                            Button
+                            </div>
+
+                        <div class="playlistbar">
+
+                            <ul>         
+                                    <li><a href="">Nome Playlist</a></li>
+                                    <li><a href="">Nome Playlist</a></li>
+                                    <li><a href="">Nome Playlist</a></li>
+                                    <li><a href="">Nome Playlist</a></li>
+                                    <li><a href="">Nome Playlist</a></li>
+                                    <li><a href="">Nome Playlist</a></li>
+                                    <li><a href="">Nome Playlist</a></li>
+                                
+                            </ul>
+                           
+                        </div>
+                    
 
                 </div>
 
-                <div class="navdown">
+                <div class="navbottom">
                     <div class="installa-app-box">
                         <a class="installa-app" href="">
                             <i class="far fa-arrow-alt-circle-down"></i>
@@ -259,6 +268,7 @@
     </footer>
 
     <!-- footer -->
+</div>
     
 </body>
 </html>
