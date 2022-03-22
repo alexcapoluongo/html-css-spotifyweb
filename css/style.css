@@ -148,11 +148,9 @@ main{
 .navbottom{
     height:70px;
     width:100%;
-    background-color: violet;
 }
 
 .installa-app-box{
-    border-bottom:1px solid gray;
     padding-bottom:10px;
     padding-left:10px
 }
@@ -164,7 +162,11 @@ main{
 }
 
 .installa-app-box i{
-    padding-right:10px;
+    padding-left:5px;
+}
+
+.installa-app-text{
+    padding-left:10px;
 }
 
 .utente-bar{
@@ -172,16 +174,27 @@ main{
     padding-left:10px;
 }
 
+.grey-bar{
+    width:80%;
+    border:1px solid gray;
+    margin:0 auto;
+}
+
 .username{
     color:white;
+    padding-left:10px;
     font-weight: bold;
     vertical-align: middle;
 }
 
-.user-logo{
-    font-size: 1.5em;
+.user-logo img{
+    width:20px;
+    height:20px;
     color:gray;
     vertical-align: middle;
+    border:1px solid white;
+    border-radius: 50%;
+    background-color: #808080;
 }
 
 /* mediaquery navbar */
