@@ -399,6 +399,11 @@ main{
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+.album-container-2{
+    display:flex;
+
+}
 .album{
     width:200px;
     border:1px solid black;
@@ -423,6 +428,7 @@ main{
 
 .album-label{
     color:white;
+    padding-top:10px;
 }
 
 .album-artist{
@@ -432,17 +438,19 @@ main{
 
 /* john doe */
 
-.john-doe {
+.creato-per {
     margin-top:50px;
 }
 
-.john-doe h2{
+.creato-per .title-john-doe{
     color:white;
+    padding-bottom:30px;
+
 }
 
-.title-john-doe{
-    padding-bottom:30px;
-    background-color: blue;
+
+.creato-per .album{
+    margin-right:10px;
 }
 
 /* popular artist */
