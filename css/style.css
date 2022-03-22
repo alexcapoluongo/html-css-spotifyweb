@@ -21,10 +21,10 @@ body{
     overflow:hidden;
 }
 
-.container{
+/* .container{
     width:95%;
     margin: 0 auto;
-}
+} */
 
 /* MAIN */
 
@@ -394,42 +394,31 @@ main{
     padding-bottom:20px;
 }
 
+
 .album{
-    height:30vh;
-    width:100%;
-    background-color: brown;
-    display:flex;
-    /* flex-wrap: wrap; */
-}
-
-.recently-played-box{
-    justify-content: space-around;
-}
-.album-item{
+    width:200px;
     border:1px solid black;
-    width:160px;
-    height:100%;
+    display:flex;
+    flex-direction: column;
 }
 
-.album-photo{
-    height:70%;
-    border:3px solid blue;
+.img-album{
+    width:100%;
+    height:80%;
+    border: 2px solid violet;
 }
 
-.album-photo img{
+.img-album img{
     width:100%;
     height:100%;
 }
 
-.album-name{
-    height:30%;
-    border:2px solid red;
-    text-align: center;
+.title-album{
+    width:100%;
+    text-align:center;
 }
 
 .album-label{
-    font-size: 1em;
-    font-weight: bold;
     color:white;
 }
 
@@ -467,6 +456,34 @@ main{
     padding-bottom:30px;
     background-color: blue;
 }
+
+
+/* PROVA LAYOUT */
+
+.album-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.album{
+    height:250px;
+    border:1px solid black;
+    display:flex;
+    flex-direction: column ;
+}
+
+.img-album{
+    width:100%;
+    height:80%;
+    border: 2px solid violet;
+}
+
+.img-album img{
+    width:100%;
+    height:100%;
+}
+
+
 
 /* FOOTER */
 
