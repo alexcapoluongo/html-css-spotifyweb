@@ -51,13 +51,14 @@ main{
 
 /* navtop */
 .navtop{
+    display: flex;
+    flex-direction:column;
     height:calc(100% - 70px);
     min-height:350px;
     width:100%;
     background-color: black;
-    color:lightgray;
     overflow: hidden;
-
+    color:white;
 }
 
 .navtop a{
@@ -67,82 +68,77 @@ main{
 
 .navtop .logo{
     width:50%;
-    height:80px;
     padding-bottom:20px;
     padding-top:5px;
     padding-left: 10px;
-    background-color: blue;
 }
 
 .navtop ul{
     list-style:none;
 }
 
-.navtop li{
-    padding-bottom:10px;
+/* navtop-navbar */
+.navbar{
+    width:100%;
+    margin-bottom:20px;
 }
 
-.navbar li:first-child{
-    border-left:2px solid limegreen;
+.navbar li{
+    padding-bottom:5px;
 }
 
 .navtop li a{
     text-decoration: none;
-    color:gray;
+    color:#808080;
     font-weight: bolder;
     font-size:.8em;
 }
 
-.navbar li i{
-    font-size: 1.8em;
-    vertical-align: middle;
-
-}
-
 .navbar-text{
     vertical-align: middle;
 }
 
-.navbar{
-    width:100%;
-    margin-bottom:20px;
-    height:150px;
-    background-color: chartreuse;
-}
 
-.navbar li a:first-child{
-    padding-left:200px;
-}
-
-.navbar li img{
+.navbar li a img{
     width:30px;
     vertical-align: middle;
-
 }
 
 .navbar-text{
     vertical-align: middle;
 }
 
-.navbar:first-child{
-    border-left:1px solid lime;
-}
 .navtop h3{
     font-size: 1em;
     padding-left: 10px;
 }
 
-.logo-create-navbar{
+/* navtop-playlist */
+.logo-create{
     font-size: 3em;
     vertical-align: middle;
+    color:#808080;
+}
 
+.playlistbar a{
+    text-decoration: none;
+    color:#808080;
 }
 
 .playlistbar{
-    height:calc(100% - 230px);
-    overflow-y: auto;
-    background-color: aliceblue;
+    flex-grow:1;
+    overflow-y: hidden;
 }
+
+.playlistbar ul{
+    overflow-y: auto;
+    height:80%;
+}
+
+.playlistbar li{
+    padding-bottom:5px;
+}
+
 
 .navbar-text-playlist{
     font-size:1.2em;
