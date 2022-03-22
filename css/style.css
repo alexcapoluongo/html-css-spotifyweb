@@ -25,6 +25,7 @@ body{
 main{
     height:calc(100vh - 80px);
     background-color: violet;
+    overflow: hidden;
 }
 
 /* nav */
@@ -47,7 +48,8 @@ main{
     width:100%;
     background-color: black;
     color:lightgray;
-    overflow-y: auto;
+    overflow: hidden;
+
 }
 
 .navtop a{
@@ -117,7 +119,7 @@ main{
 .navdown{
     height:70px;
     width:100%;
-    background-color: black;
+    background-color: violet;
 }
 
 .installa-app-box{
@@ -231,7 +233,10 @@ main{
     background-color: aquamarine;
     float:left;
     display: inline-block;
+    overflow:auto
 }
+
+/* effettua upgrade */
 
 .effettua-upgrade{
     height:60px;
@@ -260,6 +265,8 @@ main{
 .upgrade-btn a:hover{
     padding: 15px 25px 15px 25px;
 }
+
+/* menu */
 
 .menu-song{
     margin-top: 60px;
@@ -305,6 +312,8 @@ main{
     color:white;
 }
 
+/* recently played */
+
 .recently-played{
     width:100%;
     margin-top:40px;
@@ -320,13 +329,16 @@ main{
     width:100%;
     background-color: brown;
     display:flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
+.recently-played-box{
+    justify-content: space-around;
+}
 .album-item{
     border:1px solid black;
     width:160px;
+    height:100%;
 }
 
 .album-photo{
@@ -356,7 +368,20 @@ main{
     color:gray
 }
 
+/* john doe */
 
+.john-doe {
+    margin-top:50px;
+}
+
+.john-doe h2{
+    color:white;
+}
+
+.title-john-doe{
+    padding-bottom:30px;
+    background-color: blue;
+}
 
 
 /* FOOTER */
