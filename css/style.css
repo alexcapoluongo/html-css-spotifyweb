@@ -87,6 +87,18 @@ main{
     padding-bottom:5px;
 }
 
+.navbar li a:nth-child(2){
+    position:relative;
+}
+
+.green-border{
+    border:2px solid green;
+    position:absolute;
+    left:0;
+    top:57px;
+    height:30px;
+}
+
 .navtop li a{
     text-decoration: none;
     color:#808080;
@@ -227,8 +239,8 @@ main{
         display:none;
     }
 
-    .navtop h3{
-        display:none;
+    .green-border{
+        display: none;;
     }
 
     .navbar-text{
@@ -240,12 +252,17 @@ main{
         text-align: center;
     }
 
+    .playlistbar i, .playlistbar h3, .playlistbar a{
+        display:none;
+    }
+
     .username{
         display:none;
     }
 
     .installa-app-box{
         text-align: center;
+        padding-left:0px;
     }
 
     .installa-app-text{
@@ -258,13 +275,20 @@ main{
 
     .installa-app-box i{
         padding-right:0px;
+        padding-left:0px;
     }
 
     .installa-app-box{
         border:none;
     }
+
     .utente-bar{
         text-align: center;
+        padding-left: 0px;
+    }
+
+    .grey-bar{
+        display:none;
     }
 }
 
@@ -285,9 +309,9 @@ main{
 .effettua-upgrade{
     position: fixed;
     top:0;
-    left:0;
+    right:0;
     height:60px;
-    width:100%;
+    width:calc(100% - 200px);
     background-color: rgba(0, 0, 0, .5);
     
 }
