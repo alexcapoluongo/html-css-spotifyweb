@@ -383,6 +383,20 @@ main{
     background-color: blue;
 }
 
+/* popular artist */
+
+.popular-artist {
+    margin-top:50px;
+}
+
+.popular-artist h2{
+    color:white;
+}
+
+.title-popular-artist{
+    padding-bottom:30px;
+    background-color: blue;
+}
 
 /* FOOTER */
 
