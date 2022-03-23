@@ -408,16 +408,11 @@ main{
     margin-right:5px;
 }
 
-.img-album{
-    width:100%;
-}
-
 .img-album img{
     width:100%;
 }
 
 .title-album{
-    width:100%;
     text-align:center;
     padding-top: 10px;
 }
@@ -430,6 +425,14 @@ main{
 .album-artist{
     font-size: .8em;
     color:gray
+}
+
+/* mediaquery recently played */
+
+@media screen and (max-width: 1100px) {
+    .album{
+        width:calc(100% / 4 - 5px);
+    }
 }
 
 /* john doe */
