@@ -26,6 +26,7 @@ body{
     margin: 0 auto;
 }
 
+
 /* MAIN */
 
 main{
@@ -423,6 +424,25 @@ main{
 
 .img-album img{
     width:100%;
+}
+
+.img-album{
+    position:relative;
+}
+
+.layover{
+    background-color: rgba(0, 0, 0, .5);
+    display: block;
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    display:none;
+}
+
+.layover:hover{
+    display: inline-block;
 }
 
 .title-album{
