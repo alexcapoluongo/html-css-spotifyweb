@@ -87,8 +87,12 @@ main{
     padding-bottom:5px;
 }
 
-.navbar li a:nth-child(2){
-    position:relative;
+.navbar li:first-child{
+    border-left:2px green solid;
+}
+
+.navbar li:nth-child(2), .navbar li:nth-child(3){
+    border-left:2px solid transparent;
 }
 
 .green-border{
@@ -228,7 +232,7 @@ main{
     }
 
     .navtop .logo{
-        padding-left: 0px;
+        padding-left: 5px;
         width:80%;
     }
 
@@ -237,10 +241,6 @@ main{
     }
     .nav .playlistbar li{
         display:none;
-    }
-
-    .green-border{
-        display: none;;
     }
 
     .navbar-text{
@@ -424,7 +424,7 @@ main{
 
 .album-artist{
     font-size: .8em;
-    color:gray
+    color:gray;
 }
 
 /* mediaquery recently played */
@@ -433,6 +433,13 @@ main{
     .album{
         width:calc(100% / 4 - 5px);
     }
+}
+
+@media screen and (max-width: 700px) {
+    .album{
+        width:calc(100% / 2 - 5px);
+    }
+
 }
 
 /* john doe */
