@@ -170,7 +170,7 @@ main{
 
 .installa-app-box{
     padding-bottom:10px;
-    padding-left:10px
+    padding-left:10px;
 }
 
 .installa-app-box a{
@@ -321,6 +321,7 @@ main{
     height:60px;
     width:calc(100% - 200px);
     background-color: rgba(0, 0, 0, .5);
+    z-index:999;
     
 }
 
