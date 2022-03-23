@@ -430,24 +430,23 @@ main{
 
 .img-album{
     position:relative;
-
 }
 
 /* overlay */
 
-.overlay::before {
-    content: "";
+.overlay{
+    background-color: rgba(0, 0, 0, .5);
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,.5);
-    display: none;
-}
+    dispLay:none;
+} 
 
-.overlay:hover{
-    display:inline-block;
+.img-album:hover .overlay{
+    display: inline-block;
+
 }
 
 .img-album i{
@@ -460,7 +459,7 @@ main{
     display: none;
 }
 
-.img-album i:hover{
+.img-album:hover i{
     display: inline-block;
 }
 
@@ -574,22 +573,24 @@ footer{
     height:80px;
     width:100%;
     background-color: yellow;
+    display:flex;
 
 }
 
 .album-play{
     width:20%;
+    height:80px;
     background-color: aqua;
 }
 
 .control{
     width:60%;
+    height:80px;
     background-color: yellowgreen;
 }
 
 .volume{
     width:20%;
+    height:80px;
     background-color: red;
-
-
 }
