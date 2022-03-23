@@ -459,9 +459,30 @@ main{
     display: none;
 }
 
-.img-album:hover i{
+.img-album-circle{
+    position:relative;
+    overflow: hidden;
+}
+
+.img-album:hover i, .album-circle:hover i{
     display: inline-block;
 }
+
+.img-album-circle:hover .overlay{
+    display: inline-block;
+}
+
+.album-circle i{
+    color:white;
+    font-size:4em;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    display:none;
+}
+
+/* /overlay */
 
 
 .title-album{
