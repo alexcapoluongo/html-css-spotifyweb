@@ -645,6 +645,33 @@ footer{
     width:60%;
     height:80px;
     background-color: yellowgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.control-top{
+    height:50%;
+    width:250px;
+    background-color: aliceblue;
+}
+
+.control-bottom{
+    height:50%;
+    width:70%;
+    background-color: yellow;
+    display:flex;
+}
+
+.time{
+    width:30px;
+    height:100%;
+    border: 1px solid black;
+}
+
+.time-bar{
+    flex-grow: 1;
 }
 
 /* footer-right */
