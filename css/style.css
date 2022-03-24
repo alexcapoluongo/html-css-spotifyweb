@@ -54,8 +54,9 @@ main{
 .navbar li a img{
     opacity:.5;
  }
- .navbar li:hover .navbar li a img{
-    opacity:0;
+
+.navbar-item:hover .navbar li a img{
+    opacity:1;
  }
 
 /* navtop */
@@ -623,26 +624,46 @@ footer{
     width:25%;
     background-color: #494949;
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+}
+
+/* mediaquery icons footer left */
+
+@media screen and (max-width:600px){
+    .icons-footer-left{
+        flex-direction: column;
+        justify-content: center;
+    }
+
 }
 
 .icons-footer-left i{
     color:white;
     opacity:.5;
+    margin-left:10px;
 }
 
+.icons-footer-left i:hover{
+    opacity:1;
+}
+
+
 .song-title{
-    font-size: .7em;
+    font-size: .8em;
     padding-right:5px;
     color:white;
 }
 
 .singer-title{
-    font-size: .5em;
+    font-size: .7em;
     color:white;
     opacity:.5;
+}
+
+.singer-title:hover{
+    opacity:1;
+    text-decoration: underline;
 }
 /* mediaquery footer */
 @media screen and (max-width:600px){
