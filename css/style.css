@@ -55,7 +55,7 @@ main{
     opacity:.5;
  }
 
-.navbar-item:hover .navbar li a img{
+.navbar a:hover img{
     opacity:1;
  }
 
@@ -130,6 +130,7 @@ main{
     vertical-align: middle;
 }
 
+
 .navbar-text{
     vertical-align: middle;
 }
@@ -169,7 +170,6 @@ main{
 .playlistbar li{
     padding-bottom:10px;
 }
-
 
 
 .navbar-text-playlist{
