@@ -661,7 +661,7 @@ footer{
 .control-bottom{
     height:50%;
     width:70%;
-    background-color: yellow;
+    background-color: #494949;
     display:flex;
 }
 
@@ -669,6 +669,13 @@ footer{
     width:30px;
     height:100%;
     border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size:.7em;
+    font-weight: bold;
+    color:white;
+
 }
 
 .time-bar{
@@ -729,11 +736,14 @@ footer{
 }
 
 .volume-control{
-    width:50%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.volume .volume-control{
+    width:50%;
 }
 
 .control-bar{
